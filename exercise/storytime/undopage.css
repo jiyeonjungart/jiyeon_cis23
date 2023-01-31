@@ -1,0 +1,64 @@
+
+body {
+  background: #91add5;
+  margin: auto;
+}
+
+.topbox{
+    position: fixed;
+    background: #e0eafa;
+    width:100%;
+    height: 10rem;
+    margin-top: 0;
+}
+
+.undo{
+    position: fixed;
+    width:25px;
+    margin-top: 1rem;
+    margin-left: 11rem;
+    transform: scaleX(-1);
+
+}
+
+.documentbox{
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(255, 255, 255);
+    width: 70vw;
+    min-height: 80rem;
+    margin: auto;
+
+    
+}
+
+.typing{
+    margin-top: 11rem;
+}
+
+
+
+.bodytext {
+
+  color: rgb(0, 0, 0);
+  font-family: serif;
+ 
+  border-right: .05em solid rgb(0, 0, 0); /* The typwriter cursor */
+
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  letter-spacing: .05em; /* Adjust as needed */
+  animation: 
+    blink-caret .5s step-end infinite;
+}
+
+
+
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 0, 0) }
+}
+
