@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Week 2: Html Structure Analysis</title>
+
+    <!-- Adds: an internal stylesheet. -->
+    <style>
+      section { margin-top: 120px; }
+      #table-of-contents { margin: 80px 0; }
+      .anchor-offset { scroll-margin-top: 40px; }
+      .grid-col-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      Core 2 Interaction: Lab –&nbsp;<em>Week 2: HTML Structure Analysis</em>
+    </header>
+    <section id="table-of-contents">
+      <ul>
+        <li><a href="#screenshot">Screenshot ↓</a></li>
+        <li><a href="#analysis">Analysis ↓</a></li>
+        <li><a href="#questions">Questions ↓</a></li>
+      </ul>
+    </section>
+    <section id="screenshot">
+      <h2>Screenshot</h2>
+      <img id="websitepic" src="./assets/week2websitepic.png" alt="websitescreenshot" width="100%" height="auto">
+    </section>
+    <section id="analysis">
+      <h2>Analysis</h2>
+      <div class="grid-col-2">
+        <div>
+          <pre id="analysis--simplified-html">
+            body .grid 
+                header .c12
+                    div .hero
+                    main .c12 content
+                            div .hvr-float exp exp-ramp
+                                div .exp-content
+                            div .hvr-float exp exp-ig
+                                div .exp-content
+                        a "patch"
+                            div .hvr-float exp exp-patch
+                                div .exp-content
+                        a "github"
+                            div .hvr-float exp exp-github
+                                div .exp-content
+                        a "starbucks"
+                            div .hvr-float exp exp-starbucks
+                                div .exp-content
+                        a "ideo"
+                            div .hvr-float exp exp-ideo
+                                div .exp-content
+                    footer .c12 grid
+                    div #speechify-global-notifications
+                    div #speechify-summarization-fullscreen-mode
+                    div #speechify-screenshot-mode
+
+
+          </pre>
+        </div>
+        <div id="analysis--text">
+          <a href="https://www.zainkho.com/">Zain Kho Portfolio</a>
+          <br>
+          <br>
+          The class name "grid" for the body tag indicates that the website is contructed with grid components.
+          This can be confirmed by inspecting the page and checking there is a display:grid property for .grid.
+          <br>
+          <br>
+          .c12 content seems to contain all the blocks of content as it surrounds the a tags that leads to the project page.
+          <br>
+          <br>
+          The footer tag with class name .c12 grid also indicates that the website uses the gird to stucture the website.
+          When I checked the css property, I was able to confirm the use of gird.
+          <br>
+          <br>
+          The header tag includes the introduction and navigation that is written at the top of the page, which is "Hello, I'm Zain.
+          Creating joy @Cornell, @Ramp."
+          <br>
+          <br>
+          It is interesting that there are some code that I do not recognize the use of, such as div #speechify-global-notifications, div #speechify-summarization-fullscreen-mode, div #speechify-screenshot-mode. 
+          <br>
+          <br>
+
+        </div>
+      </div>
+    </section>
+    <section id="analysis--questions">
+      <h2>Questions</h2>
+      <ul>
+        <li>
+          <!-- TODO: Ask some questions! -->
+          I don't really understand what div #speechify-global-notifications, div #speechify-summarization-fullscreen-mode, div #speechify-screenshot-mode do.
+        </li>
+        <li>
+          I know that the grid property is used but I can't not read the css grid because I don't know how the grid works, so I wonder how to set up a grid system.
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
