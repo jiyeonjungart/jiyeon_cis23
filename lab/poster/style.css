@@ -1,0 +1,211 @@
+body{
+    background-color: #136CE2;
+    margin: 4.5rem;
+}
+
+
+.toptext{
+    font-family: "irohakakuc", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 53px;
+    writing-mode:vertical-rl;
+    color: white;
+}
+
+.bottomtext{
+    position: absolute;
+    top: 80%;
+    display: flex;
+    justify-content: center;
+    font-family: irohakakuc, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    writing-mode:vertical-rl;
+    color: white;
+}
+
+.zara{
+    position: absolute;
+    right: 1.5rem;
+    left: 70%;
+    top: 30%;
+    font-family: "kinto-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 105px;
+    writing-mode:vertical-rl;
+    color: white;
+}
+
+.zara1{
+    position:relative;
+    top: 50%;
+}
+
+.eggs{
+    position: absolute;
+    left: 45%;
+    top: 47%;
+}
+
+.egg1{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-top: -300px;
+}
+
+.eggwhite1{
+    position: relative;
+    margin-top: -385px;
+    width: 0;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid transparent;
+    border-left: 60px solid rgb(255, 255, 255);
+    border-bottom: 60px solid white;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    transform: rotate(309deg) scale(1.6);
+    margin-left: -50px;
+}
+
+.yolk1{
+    position: relative;
+    width: 0;
+    border-right: 60px solid transparent;
+    border-top: 60px solid transparent;
+    border-left: 60px solid #FAC808;
+    border-bottom: 60px solid #FAC808;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    transform: scale(.9, 1.1) rotate(309deg);
+    margin-top: -124px;
+    margin-left: -68px;
+}
+
+.eggwhite2{
+    position: relative;
+    margin-top: 29px;
+    margin-left: 33px;
+    width: 75px;
+    height: 185px;
+    background-color: white;
+    border-radius: 3% 97% 90% 10% / 100% 54% 46% 0% ;
+    transform: rotate(84deg);
+}
+
+.yolk2{
+    position: relative;
+    width: 0;
+    border-right: 60px solid transparent;
+    border-top: 60px solid transparent;
+    border-left: 60px solid #FAC808;
+    border-bottom: 60px solid #FAC808;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    transform: scale(.8, .8)rotate(312deg);
+    margin-top: -196px;
+    margin-left: -10px;
+}
+
+.eggwhite3{
+    position: relative;
+    margin-top: 14px;
+    margin-left: 22px;
+    width: 65px;
+    height: 180px;
+    background-color: white;
+    border-radius: 3% 97% 90% 10% / 100% 54% 46% 0% ;
+    transform: rotate(97deg) ;
+}
+
+.yolk3{
+    position: relative;
+    width: 0;
+    border-right: 60px solid transparent;
+    border-top: 60px solid transparent;
+    border-left: 60px solid #FAC808;
+    border-bottom: 60px solid #FAC808;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    transform: scale(.8, .6)rotate(324deg) ;
+    margin-top: -187px;
+    margin-left: -10px;
+}
+
+.eggwhite4{
+    position: relative;
+    margin-top: 9px;
+    margin-left: 23px;
+    width: 75px;
+    height: 180px;
+    background-color: white;
+    border-radius: 16% 84% 88% 12% / 0% 42% 58% 100%  ;
+    transform: rotate(85deg) ;
+}
+
+.yolk4{
+    position: relative;
+    margin-top: -161px;
+    margin-left: 23px;
+    width: 42px;
+    height: 108px;
+    background-color: #FAC808;
+    border-radius: 16% 84% 88% 12% / 0% 51% 49% 100%;
+    transform: rotate(85deg);
+}
+
+.eggwhite5{
+    position: relative;
+    margin-top: -11px;
+    margin-left: 23px;
+    width: 60px;
+    height: 194px;
+    background-color: white;
+    border-radius: 16% 84% 88% 12% / 0% 59% 41% 100% ;
+    transform: rotate(88deg) ;
+}
+
+.yolk5{
+    position: relative;
+    margin-top: -152px;
+    margin-left: 10px;
+    width: 46px;
+    height: 87px;
+    background-color: #FAC808;
+    border-radius: 16% 84% 88% 12% / 0% 51% 49% 100%;
+    transform: rotate(94deg);
+}
+
+.eggwhite6{
+    position: relative;
+    margin-top: 2px;
+    margin-left: 16px;
+    width: 86px;
+    height: 180px;
+    background-color: white;
+    border-radius: 16% 84% 88% 12% / 0% 42% 58% 100%;
+    transform: rotate(99deg);
+}
+
+.yolk6{
+    position: relative;
+    margin-top: -167px;
+    margin-left: 23px;
+    width: 50px;
+    height: 108px;
+    background-color: #FAC808;
+    border-radius: 16% 84% 88% 12% / 0% 51% 49% 100%;
+    transform: rotate(97deg);
+}
