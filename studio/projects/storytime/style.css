@@ -27,7 +27,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid #181818;
   position: relative;
   display: flex;
   justify-content: center;
@@ -51,7 +51,7 @@ body{
 .inner_dot {
   width: 100px;
   height: 100px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
 }
 
@@ -62,7 +62,7 @@ body{
   margin-right: auto;
   position: absolute;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid #181818;
   display: flex;
   left: 22rem;
   top: 5rem;
@@ -73,7 +73,7 @@ body{
 .outer_dot {
   width: 20px;
   height: 20px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
 }
 .top-title {
@@ -84,6 +84,7 @@ body{
   margin: 50px;
   line-height: 70px;
   color: #181818;
+  text-decoration: none;
 }
 .bottom-title {
   align-self: flex-end;
@@ -100,19 +101,20 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
-  margin: auto;
+  width: 40%;
+  margin: 2.5rem auto;
   min-width: 800px;
 }
 
 .rectangles div {
   width: 37px;
   height: 198px;
-  background-color: black;
+  background-color: #181818;
 }
 
 .desktop_screen{
-  margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
 .rectangles:nth-child(1) div:nth-child(1) {
@@ -184,7 +186,7 @@ body{
   margin-right: auto;
 }
 .rectangles_desc span {
-  background-color: #000000;
+  background-color: #181818;
   cursor: pointer;
 }
 .rectangles_desc span:hover {
@@ -214,14 +216,14 @@ body{
 .prev_btn {
   width: 50px;
   height: 50px;
-  background-color: #000000;
+  background-color: #181818;
   border-radius: 50%;
   margin-right: 15px;
 }
 .next_btn {
   width: 45px;
   height: 45px;
-  border: 3px solid #000000;
+  border: 3px solid #181818;
   border-radius: 50%;
 }
 .bottom_buttons1 {
@@ -237,14 +239,14 @@ body{
 .prev_btn1 {
   width: 50px;
   height: 50px;
-  background-color: #000000;
+  background-color: #181818;
   border-radius: 50%;
   margin-right: 15px;
 }
 .next_btn2 {
   width: 45px;
   height: 45px;
-  border: 3px solid #000000;
+  border: 3px solid #181818;
   border-radius: 50%;
 }
 
@@ -289,7 +291,7 @@ body{
 
 .Third__Page {
   display: flex;
-  width: 90%;
+  width: 85%;
   margin-top: 5% !important;
   margin: 0 auto;
 }
@@ -314,7 +316,7 @@ body{
   font-family: 'Neue Haas Grotesk Display Pro';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 23px;
   margin-top: 15%;
   line-height: 130.3%;
   letter-spacing: 0.07em;
@@ -324,12 +326,12 @@ body{
 .Third__Secound_Sec {
   margin-top: 6% !important;
   display: flex;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 .lastSection {
   display: flex;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   margin-top: 10%;
 }
@@ -390,7 +392,7 @@ body{
   position: absolute;
   height: 200px;
   width: 200px;
-  border: 2px solid black;
+  border: 2px solid #181818;
   border-radius: 50%;
   opacity: 1;
   transition: opacity linear 0.3s;
@@ -497,7 +499,7 @@ body{
   position: absolute;
   height: 70px;
   width: 70px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
   right: 3%;
   top: 12rem;
@@ -506,7 +508,7 @@ body{
   position: absolute;
   height: 20px;
   width: 20px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
   right: 20%;
   top: 23rem;
@@ -516,7 +518,7 @@ body{
   position: absolute;
   height: 20px;
   width: 20px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
   right: 28%;
   top: 26rem;
@@ -525,7 +527,7 @@ body{
   position: absolute;
   height: 40px;
   width: 40px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
   left: 5rem;
   top: 23rem;
@@ -533,7 +535,7 @@ body{
 .main-circle {
   position: relative;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid #181818;
   height: 15rem;
   width: 15rem;
   display: flex;
@@ -548,7 +550,7 @@ body{
 .image3 {
   width: 330px;
   height: 330px;
-  background-color: black;
+  background-color: #181818;
   text-align: start;
   border-radius: 50%;
   position: relative;
@@ -564,7 +566,7 @@ body{
 .lastone {
   width: 60px;
   height: 60px;
-  border: 2px solid black;
+  border: 2px solid #181818;
   border-radius: 50%;
 }
 .laste {
@@ -573,7 +575,7 @@ body{
 .lasttwo {
   width: 63px;
   height: 63px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
   margin-left: 30px !important;
 }
@@ -709,19 +711,19 @@ body{
   width: 207px;
   height: 207px;
   border-radius: 50%;
-  background-color: black;
+  background-color: #181818;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 2px;
   margin-top: 1px;
-  border: 2px solid black !important;
+  border: 2px solid #181818 !important;
   transition: opacity 0.5s ease, background-color 1s ease;
 }
 
 .page5__hover:hover {
   background-color: white;
-  color: black;
+  color: #181818;
   border-color: transparent !important;
   opacity: 0.8;
 }
@@ -730,7 +732,7 @@ body{
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #181818;
 }
 
 .smallBtns {
@@ -846,7 +848,7 @@ a {
 .dark-circle-lg {
   height: 70px;
   width: 70px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
   position: absolute;
   left: 15%;
@@ -855,7 +857,7 @@ a {
 .dark-circle-lgTwo {
   height: 70px;
   width: 70px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
   position: absolute;
   left: 45%;
@@ -864,7 +866,7 @@ a {
 .dark-circle-mediun {
   height: 50px;
   width: 50px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
   position: absolute;
   right: 30%;
@@ -873,7 +875,7 @@ a {
 .dark-circle-small {
   height: 30px;
   width: 30px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
   position: absolute;
   right: 10%;
@@ -882,7 +884,7 @@ a {
 .dark-circle-smallTwo {
   height: 30px;
   width: 30px;
-  background-color: black;
+  background-color: #181818;
   border-radius: 50%;
   position: absolute;
   right: 10%;
@@ -912,7 +914,7 @@ a {
 }
 .theEnd-body-lastPara {
   background-color: white;
-  color: black;
+  color: #181818;
 }
 .theEnd-body-lastPara-container {
   padding: 8rem;
@@ -1013,13 +1015,13 @@ a {
   justify-content: center;
   align-items: center;
   height: 500px;
-  background: linear-gradient(white 50%, black 50%);
+  background: linear-gradient(white 50%, #181818 50%);
 }
 .semi-white_dark {
   height: 400px;
   width: 400px;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
+  border-top: 2px solid #181818;
+  border-left: 2px solid #181818;
   border-bottom: 2px solid white;
   border-right: 2px solid white;
   border-radius: 50%;
@@ -1065,11 +1067,11 @@ a {
   transition: opacity 0.5s ease, background-color 0.5s ease;
 }
 .hover_love:hover {
-  color: black;
+  color: #181818;
   opacity: 0.8;
 }
 .lower-text_container {
-  background-color: black;
+  background-color: #181818;
   color: white;
   padding: 1px;
 }
@@ -1200,7 +1202,7 @@ a {
   }
   .Top__paragraph {
     position: relative;
-    top: 188px;
+    top: 190px;
   }
 
   .container {
@@ -1279,6 +1281,7 @@ a {
   .mobile_clock img {
     width: 80%;
     max-width: 400px;
+    margin-top: 2rem;
   }
   .rectangles_desc {
     flex-wrap: wrap;
@@ -1331,7 +1334,7 @@ a {
     width: 256px;
   }
   .cirlce-outline-link {
-    background-color: black ;
+    background-color: #181818 ;
   }
   .bottom_buttons {
     justify-content: center;
@@ -1419,7 +1422,7 @@ a {
   }
 
   .outer_spinner{
-    left: 10.7rem;
+    left: 10.9rem;
     width: 45px;
     height: 45px;
   }
@@ -1492,11 +1495,11 @@ a {
     top: 10rem;
   }
   .mg-top {
-    margin-top: 47rem;
+    margin-top: 30rem;
   }
   .second-bg-dotes {
     position: relative;
-    top: -47rem;
+    top: -30rem;
   }
   .Left-spring-circle1 {
     left: 5%;
