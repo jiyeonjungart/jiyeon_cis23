@@ -44,8 +44,9 @@ circle {
     height: 100%;
     margin-top: 35rem;
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.07em;
     line-height: 147.3%;
 }
 
@@ -72,9 +73,11 @@ circle {
     gap: 5%;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 147.3%;
     text-align: justify;
+    letter-spacing: 0.07em;
+
 }
 
 .left {
@@ -171,6 +174,11 @@ circle {
 
     .content-ctn {
         margin-top: 0rem;
+        font-size: 18px;
+    }
+
+    .white{
+        font-size: 18px;
     }
     
     circle {

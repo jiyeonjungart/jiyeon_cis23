@@ -64,7 +64,7 @@ body{
   border-radius: 50%;
   border: 2px solid #181818;
   display: flex;
-  left: 22rem;
+  left: 21.9rem;
   top: 5rem;
   align-items: center;
 
@@ -955,8 +955,10 @@ a {
   width: 50%;
 }
 .clock_content p {
-  font-size: 17px;
+  font-size: 19px;
+  letter-spacing: 0.07em;
   line-height: 31px;
+margin-left:10px;
 }
 .dot_dash {
   display: flex;
@@ -986,7 +988,7 @@ a {
   width: 50%;
   margin-top: 5rem;
   line-height: 31px;
-  font-size: 17px;
+  font-size: 19px;
 }
 .clock2 img {
   width: 400px;
@@ -1002,7 +1004,7 @@ a {
   margin-left: 7.5%;
   margin-right: 7.5%;
   margin-top: 2%;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 /* page 9 css */
@@ -1263,9 +1265,7 @@ a {
   .content2 {
     width: 100%;
   }
-  .content2 p {
-    font-size: 18px;
-  }
+
   .clock2 img {
     width: 200px;
     margin: 0;
