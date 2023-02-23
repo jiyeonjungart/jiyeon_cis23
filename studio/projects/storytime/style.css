@@ -5,9 +5,14 @@
 p {
   line-height: 130.3% !important;
   letter-spacing: 0.07em !important;
+  color: #181818;
 }
 body{
   margin: 0;
+}
+
+::selection {
+  background: white;
 }
 
 
@@ -1464,7 +1469,7 @@ margin-left:10px;
   }
   .Top__paragraph {
     font-size: 18px;
-    top: 110px;
+    top: 89px;
   }
   .spring-circle {
     height: 150px;
