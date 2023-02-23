@@ -43,6 +43,9 @@ body{
   animation-timing-function: linear; 
 }
 
+.outer_dot:hover{
+  background-color: #1818187d;
+}
 
 @keyframes spin {
   from {
