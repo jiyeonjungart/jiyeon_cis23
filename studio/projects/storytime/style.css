@@ -1,11 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-text-pro');
 * {
-  font-family: 'Neue Haas Grotesk Display Pro';
+  font-family: "neue-haas-unica", sans-serif;
 }
 p {
   line-height: 130.3% !important;
   letter-spacing: 0.07em !important;
   color: #181818;
+  font-weight: 300;
 }
 body{
   margin: 0;
@@ -390,7 +391,7 @@ body{
   margin-bottom: 60px !important;
   line-height: 24px;
   font-size: 21px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .spring-container {
@@ -707,6 +708,10 @@ body{
 
 /* page six */
 
+.pagesevencolorchange:hover p{
+  color:grey;
+}
+
 .page5__container {
   width: 64%;
   margin-left: auto;
@@ -742,7 +747,28 @@ a {
   text-decoration: none;
   color: #181818;
 }
+.page5__hover1 {
+  width: 207px;
+  height: 207px;
+  border-radius: 50%;
+  background-color: #181818bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+  margin-top: 1px;
+  border: 2px solid #181818 !important;
+  transition: opacity 0.5s ease, background-color 1s ease;
+}
 
+.page5__hover1:hover {
+  background-color: white;
+  color: #181818;
+  border-color: transparent !important;
+  opacity: 0.8;
+}
+.page5__hover1 p {
+  text-align: center;}
 .smallBtns {
   display: none;
 }
@@ -840,7 +866,7 @@ a {
   top: 12rem;
   right: -10%;
   font-size: 80px;
-  font-weight: 400;
+  font-weight: 300;
   transform: rotate(-90deg);
 }
 .rotate-heading h1 {
@@ -911,7 +937,7 @@ a {
   top: -1px;
 }
 .theEnd-body-details {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 147.3%;
   text-align: justify;
@@ -934,7 +960,7 @@ a {
 }
 .theEnd-body-lastPara p {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 130.3%;
   letter-spacing: 0.07em;
@@ -1012,6 +1038,7 @@ margin-left:10px;
   margin-left: 7.5%;
   margin-right: 7.5%;
   margin-top: 2%;
+  font-weight: 300;
   font-size: 19px;
 }
 
@@ -1040,7 +1067,7 @@ margin-left:10px;
 .upper-heading {
   padding-top: 1rem;
   opacity: 0;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.07em;
 }
 .upper-heading:hover {
@@ -1049,13 +1076,13 @@ margin-left:10px;
 .main-heading {
   font-weight: 100;
   padding-bottom: 1rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 .bottom-heading {
   color: white;
   padding-bottom: 3rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   opacity: 0;
   letter-spacing: 0.07em;
 }
