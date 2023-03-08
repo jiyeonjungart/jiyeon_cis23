@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta
+      name="description"
+      content="OuLiPo x William Carlos William's This Is Just To Say" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <script>
+    // We haven't covered functions yet, so just use this for now.
+    // Example usage: `randomItemFromArray(pastParticiples)`
+    function randomItemFromArray(arr) {
+      return arr[Math.floor(Math.random() * arr.length)];
+    }
+
+    // 1a
+    // Declare variable called `pastParticiples`. Initialize it with an Array of strings verbs in the past tense.
+    const pastParticiples = [
+      "ran",
+      "read",
+      "jumped",
+      "slept",
+      "spoke",
+      "eaten",
+    ];
+
+    // 1b
+    // Next, declare a variable called `pastParticiple`. Initialize it with `randomItemFromArray(pastParticiples)`.
+    const pastParticiple = randomItemFromArray(pastParticiples);
+
+    // 2a
+    // Declare a variable called `nouns`. Initialize it with an Array of strings that are nouns.
+    const nouns = [
+      "cat",
+      "candy",
+      "hair",
+      "lipstick",
+      "water",
+      "ball",
+      "drugs",
+    ];
+
+    // 2b
+    // Next, declare variables `noun1`, `noun2` and `noun3`. Initialize them all using `randomItemFromArray(nouns)`.
+    const noun1 = randomItemFromArray(nouns);
+    const noun2 = randomItemFromArray(nouns);
+    const noun3 = randomItemFromArray(nouns);
+
+    // 3a
+    // Declare a variable called `adjectives`. Initialize it with an Array of strings that are adjectives.
+    const adjectives = [
+      "depressing",
+      "sweet",
+      "exciting",
+      "loud",
+      "droopy",
+      "sweaty",
+    ];
+
+    // 3b
+    // Next, declare variables `adj1`, `adj2` and `adj3`. Initialize them all using `randomItemFromArray(adjectives)`.
+    const adj1 = randomItemFromArray(adjectives);
+    const adj2 = randomItemFromArray(adjectives);
+    const adj3 = randomItemFromArray(adjectives);
+
+    // Declaring a variable `poem` and intializing it with a string value.
+    // Note: the `${}`. This acts as placeholders in the string of poem text.
+    var poem = `
+      I have ${pastParticiple}
+      the ${noun1}
+      that were in
+      the ${noun2}
+
+      and which
+      you were probably
+      saving
+      for the ${noun3}
+
+      Forgive me
+      they were ${adj1}
+      so ${adj2}
+      and so ${adj3}
+    `;
+
+    // If you have declared and initialized all the variables correctly, you should see a new poem.
+    // Open up the Chrome developer console (via Option+Command+I), navigate to the "Console" tab,
+    // and you should see your new output.
+    console.log(poem);
+
+    const poemOriginal = `
+      I have eaten
+      the plums
+      that were in
+      the icebox
+
+      and which
+      you were probably
+      saving
+      for breakfast
+
+      Forgive me
+      they were delicious
+      so sweet
+      and so cold
+    `;
+  </script>
+  <body></body>
+</html>
