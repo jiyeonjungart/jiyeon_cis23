@@ -1,0 +1,38 @@
+.tape{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 25%;
+    left: 20%;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.cover{
+    width:25%;
+    height: auto;
+    z-index: 1;
+}
+
+.body{
+    position: relative;
+    width:24%;
+    height: auto;
+    margin-top: .2rem;
+    left: -20%;
+}
+
+.body:hover{
+    animation: move 4s infinite ease-in-out;
+    animation-delay: 100ms;
+}
+
+@keyframes move{
+    0% {margin-left:0; }
+    50% { margin-left: 10%;}
+    100% { margin-left: 0;}
+}
