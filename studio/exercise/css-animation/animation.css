@@ -10,7 +10,7 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: rgb(221, 213, 203);
+    background-color: rgba(221, 213, 203, 0.405);
 }
 
 .cover{
