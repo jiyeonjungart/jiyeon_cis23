@@ -1,0 +1,60 @@
+/* ---------- CSS RESPONSIVENESS ---------- */
+
+@media (max-width: 950px) {
+  .master-ctn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-ctn-real {
+    width: 100vw;
+    height: 34vw;
+  }
+
+  .header-ctn {
+    transform: rotate(0deg);
+    width: auto;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .header-ctn > h2 {
+    display: none;
+  }
+}
+
+@media (max-width: 730px) {
+  .header-ctn > h1 {
+    font-size: 12vw;
+  }
+  .header-ctn .years {
+    font-size: 5vw;
+    line-height: 20px;
+  }
+
+  .tv {
+    height: 486px;
+    width: 496px;
+  }
+
+  .tape {
+    width: 705px;
+    height: 100px;
+    right: 3.5rem;
+    bottom: 9rem;
+  }
+
+  .content-ctn {
+    height: 585px;
+    overflow: scroll;
+  }
+
+  iframe {
+    bottom: 34rem;
+    left: 6rem;
+    width: 400px;
+    height: 260px;
+  }
+}

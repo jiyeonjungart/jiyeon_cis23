@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Punch Halftone Italic";
+  src: url("../public/fonts/punchhalfital.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Punch Expanded Italic";
+  src: url("../public/fonts/punchexpandital.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Impact Label";
+  src: url("../public/fonts/impactlabel.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #121212;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  opacity: 0.3;
+  z-index: 30;
+  pointer-events: none;
+}
