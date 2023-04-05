@@ -15,11 +15,7 @@
     transform: rotate(0deg);
     width: auto;
   }
-
-  .overlay {
-    display: none;
-  }
-
+  
   .header-ctn > h2 {
     display: none;
   }
