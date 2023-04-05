@@ -6,7 +6,7 @@ import vcrData from "../public/data/data.json" assert { type: "json" };
 
 //HANDLE HOMEPAGE BUTTON
 const homeBtn = document.querySelector(".home-button");
-homeBtn.onclick = () => (window.location = "/vcr-shelf");
+homeBtn.onclick = () => (window.location = "/");
 
 let vcrDataToRead = vcrData.slice();
 
