@@ -6,7 +6,7 @@ import vcrData from "../public/data/data.json" assert { type: "json" };
 
 //HANDLE HOMEPAGE BUTTON
 const homeBtn = document.querySelector(".home-button");
-homeBtn.onclick = () => (window.location = "/");
+homeBtn.onclick = () => (window.location = "/jiyeon_cis23/studio/projects/elasticCollection/index.html");
 
 let vcrDataToRead = vcrData.slice();
 
