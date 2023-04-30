@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 and Asian Hate Crime in NYC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <img src="graineffect.jpeg" alt="grain" /> -->
+    <img src="graineffect1.jpeg" alt="grain" />
+    <main>
+      <figure>
+        <div>
+          <h1>Covid-19 and Asian Hate Crime in NYC</h1>
+          <div id="legend"></div>
+        </div>
+        <div>
+          <svg id="chart">
+            <!-- 1. ASSAULT 3 & RELATED OFFENSES -->
+            <symbol
+              id="offense-1"
+              width="240"
+              height="240"
+              viewBox="0 0 240 240"
+              fill="none">
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="#FF006E"
+                fill-opacity="0.5" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint0_linear_223_11291)"
+                fill-opacity="0.67" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint1_radial_223_11291)"
+                fill-opacity="0.1" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint2_radial_223_11291)"
+                fill-opacity="0.48" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_223_11291"
+                  x1="120"
+                  y1="30"
+                  x2="120"
+                  y2="247.5"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_223_11291"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(120 214) rotate(90) scale(76 22.4665)">
+                  <stop offset="0.265625" stop-color="white" />
+                  <stop offset="0.838542" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_223_11291"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(115.5 187.5) rotate(92.7621) scale(114.133 86.666)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </symbol>
+            <!-- 2. CRIMINAL MISCHIEF & RELATED OF -->
+            <symbol
+              id="offense-2"
+              width="240"
+              height="240"
+              viewBox="0 0 240 240"
+              fill="none">
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="#725CFB"
+                fill-opacity="0.5" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint0_linear_223_11315)"
+                fill-opacity="0.67" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint1_radial_223_11315)"
+                fill-opacity="0.1" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint2_radial_223_11315)"
+                fill-opacity="0.48" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_223_11315"
+                  x1="120"
+                  y1="30"
+                  x2="120"
+                  y2="247.5"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_223_11315"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(120 214) rotate(90) scale(76 22.4665)">
+                  <stop offset="0.265625" stop-color="white" />
+                  <stop offset="0.838542" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_223_11315"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(115.5 187.5) rotate(92.7621) scale(114.133 86.666)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </symbol>
+            <!-- 3. FELONY ASSAULT -->
+            <symbol
+              id="offense-3"
+              width="240"
+              height="240"
+              viewBox="0 0 240 240"
+              fill="none">
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="#FF66A8"
+                fill-opacity="0.5" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint0_linear_223_11297)"
+                fill-opacity="0.67" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint1_radial_223_11297)"
+                fill-opacity="0.1" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint2_radial_223_11297)"
+                fill-opacity="0.48" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_223_11297"
+                  x1="120"
+                  y1="30"
+                  x2="120"
+                  y2="247.5"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_223_11297"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(120 214) rotate(90) scale(76 22.4665)">
+                  <stop offset="0.265625" stop-color="white" />
+                  <stop offset="0.838542" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_223_11297"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(115.5 187.5) rotate(92.7621) scale(114.133 86.666)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </symbol>
+            <!-- 4. GRAND LARCENY -->
+            <symbol
+              id="offense-4"
+              width="240"
+              height="240"
+              viewBox="0 0 240 240"
+              fill="none">
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="#FF0000"
+                fill-opacity="0.5" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint0_linear_223_11303)"
+                fill-opacity="0.67" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint1_radial_223_11303)"
+                fill-opacity="0.1" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint2_radial_223_11303)"
+                fill-opacity="0.48" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_223_11303"
+                  x1="120"
+                  y1="30"
+                  x2="120"
+                  y2="247.5"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_223_11303"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(120 214) rotate(90) scale(76 22.4665)">
+                  <stop offset="0.265625" stop-color="white" />
+                  <stop offset="0.838542" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_223_11303"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(115.5 187.5) rotate(92.7621) scale(114.133 86.666)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </symbol>
+            <!-- 5. HARRASSMENT 2 -->
+            <symbol
+              id="offense-5"
+              width="240"
+              height="240"
+              viewBox="0 0 240 240"
+              fill="none">
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="#B416C1"
+                fill-opacity="0.5" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint0_linear_223_11307)"
+                fill-opacity="0.67" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint1_radial_223_11307)"
+                fill-opacity="0.1" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint2_radial_223_11307)"
+                fill-opacity="0.48" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_223_11307"
+                  x1="120"
+                  y1="30"
+                  x2="120"
+                  y2="247.5"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_223_11307"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(120 214) rotate(90) scale(76 22.4665)">
+                  <stop offset="0.265625" stop-color="white" />
+                  <stop offset="0.838542" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_223_11307"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(115.5 187.5) rotate(92.7621) scale(114.133 86.666)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </symbol>
+            <!-- 6. MISCELLANEOUS PENAL LAW -->
+            <symbol
+              id="offense-6"
+              width="240"
+              height="240"
+              viewBox="0 0 240 240"
+              fill="none">
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="#FFDC83"
+                fill-opacity="0.5" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint0_linear_223_11299)"
+                fill-opacity="0.67" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint1_radial_223_11299)"
+                fill-opacity="0.1" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint2_radial_223_11299)"
+                fill-opacity="0.48" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_223_11299"
+                  x1="120"
+                  y1="30"
+                  x2="120"
+                  y2="247.5"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_223_11299"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(120 214) rotate(90) scale(76 22.4665)">
+                  <stop offset="0.265625" stop-color="white" />
+                  <stop offset="0.838542" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_223_11299"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(115.5 187.5) rotate(92.7621) scale(114.133 86.666)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </symbol>
+            <!-- 7. MURDER & NON-NEGL. MANSLAUGHTE -->
+            <symbol
+              id="offense-7"
+              width="240"
+              height="240"
+              viewBox="0 0 240 240"
+              fill="none">
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="#6116C1"
+                fill-opacity="0.5" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint0_linear_223_11309)"
+                fill-opacity="0.67" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint1_radial_223_11309)"
+                fill-opacity="0.1" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint2_radial_223_11309)"
+                fill-opacity="0.48" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_223_11309"
+                  x1="120"
+                  y1="30"
+                  x2="120"
+                  y2="247.5"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_223_11309"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(120 214) rotate(90) scale(76 22.4665)">
+                  <stop offset="0.265625" stop-color="white" />
+                  <stop offset="0.838542" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_223_11309"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(115.5 187.5) rotate(92.7621) scale(114.133 86.666)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </symbol>
+            <!-- 8. OFF. AGNST PUB ORD SENSBLTY & -->
+            <symbol
+              id="offense-8"
+              width="240"
+              height="240"
+              viewBox="0 0 240 240"
+              fill="none">
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="#D291D8"
+                fill-opacity="0.5" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint0_linear_223_11305)"
+                fill-opacity="0.67" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint1_radial_223_11305)"
+                fill-opacity="0.1" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint2_radial_223_11305)"
+                fill-opacity="0.48" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_223_11305"
+                  x1="120"
+                  y1="30"
+                  x2="120"
+                  y2="247.5"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_223_11305"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(120 214) rotate(90) scale(76 22.4665)">
+                  <stop offset="0.265625" stop-color="white" />
+                  <stop offset="0.838542" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_223_11305"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(115.5 187.5) rotate(92.7621) scale(114.133 86.666)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </symbol>
+            <!-- 9. PETIT LARCENY -->
+            <symbol
+              id="offense-9"
+              width="240"
+              height="240"
+              viewBox="0 0 240 240"
+              fill="none">
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="#FFB800"
+                fill-opacity="0.5" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint0_linear_223_11301)"
+                fill-opacity="0.67" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint1_radial_223_11301)"
+                fill-opacity="0.1" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint2_radial_223_11301)"
+                fill-opacity="0.48" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_223_11301"
+                  x1="120"
+                  y1="30"
+                  x2="120"
+                  y2="247.5"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_223_11301"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(120 214) rotate(90) scale(76 22.4665)">
+                  <stop offset="0.265625" stop-color="white" />
+                  <stop offset="0.838542" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_223_11301"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(115.5 187.5) rotate(92.7621) scale(114.133 86.666)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </symbol>
+            <!-- 10. ROBBERY -->
+            <symbol
+              id="offense-10"
+              width="240"
+              height="240"
+              viewBox="0 0 240 240"
+              fill="none">
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="#FF2CD0"
+                fill-opacity="0.5" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint0_linear_223_11313)"
+                fill-opacity="0.67" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint1_radial_223_11313)"
+                fill-opacity="0.1" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint2_radial_223_11313)"
+                fill-opacity="0.48" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_223_11313"
+                  x1="120"
+                  y1="30"
+                  x2="120"
+                  y2="247.5"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_223_11313"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(120 214) rotate(90) scale(76 22.4665)">
+                  <stop offset="0.265625" stop-color="white" />
+                  <stop offset="0.838542" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_223_11313"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(115.5 187.5) rotate(92.7621) scale(114.133 86.666)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </symbol>
+            <!-- 11. SEX CRIMES -->
+            <symbol
+              id="offense-11"
+              width="240"
+              height="240"
+              viewBox="0 0 240 240"
+              fill="none">
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="#FF6363"
+                fill-opacity="0.5" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint0_linear_223_11311)"
+                fill-opacity="0.67" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint1_radial_223_11311)"
+                fill-opacity="0.1" />
+              <circle
+                cx="120"
+                cy="120"
+                r="120"
+                fill="url(#paint2_radial_223_11311)"
+                fill-opacity="0.48" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_223_11311"
+                  x1="120"
+                  y1="30"
+                  x2="120"
+                  y2="247.5"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_223_11311"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(120 214) rotate(90) scale(76 22.4665)">
+                  <stop offset="0.265625" stop-color="white" />
+                  <stop offset="0.838542" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_223_11311"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(115.5 187.5) rotate(92.7621) scale(114.133 86.666)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </symbol>
+          </svg>
+        </div>
+      </figure>
+      <article>
+        <div class="step">
+          <div>
+            <p>
+              The virus was initially identified in Wuhan, China, and as a
+              result, many people began to associate Asians with the virus and
+              blamed them for its spread.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <p>
+              COVID-19 has been identified as a significant contributing factor.
+              In early 2020, as the pandemic began to spread globally, so did
+              xenophobic rhetoric and discrimination against Asians and Asian
+              Americans
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <p>
+              The total number of reported anti-Asian hate crimes in 2020 was 33
+              cases, according to data from the New York City Police Department
+              (NYPD).
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <p>
+              The rate of reported Asian hate crimes in NYC spiked by 354.55% in
+              2021, resulting in total of 150 cases.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <p>
+              While there were certainly cases of anti-Asian hate crimes in
+              2020, the significant surge in reported cases in 2021 can be
+              attributed to several factors
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <p>
+              One possible reason is that the pandemic has continued to persist
+              throughout 2021, leading to ongoing economic and social stress
+              that may exacerbate prejudice and discrimination.
+            </p>
+          </div>
+        </div>
+        <div class="step"></div>
+      </article>
+    </main>
+    <div id="tooltip"></div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

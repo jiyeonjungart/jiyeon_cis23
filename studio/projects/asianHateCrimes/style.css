@@ -1,0 +1,206 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img{
+  mix-blend-mode:overlay;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+  pointer-events: none;
+  opacity: 15%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  color: #2c3339;
+  background-color: #f3f9ff;
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Typography */
+h1 {
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+}
+
+p {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.legend {
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
+.axis {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.tooltip {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.tooltip .tooltip-date {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.tooltip .tooltip-offense {
+  text-transform: capitalize;
+}
+
+/* Layout */
+main {
+  position: relative;
+}
+
+main > figure {
+  position: sticky;
+  top: 0;
+  transform: translate3d(0, 0, 0);
+  z-index: 0;
+  height: 100vh;
+  height: 100lvh;
+  padding: 32px 48px;
+  display: flex;
+}
+
+main > figure > :first-child {
+  flex-basis: 288px;
+}
+
+main > figure > :first-child > * + * {
+  margin-top: 24px;
+}
+
+main > figure > :last-child {
+  flex: 1;
+}
+
+main > article {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.step {
+  height: 100vh;
+  height: 100lvh;
+}
+
+.step > div {
+  pointer-events: all;
+  margin: 48px;
+  padding: 20px 32px;
+  max-width: 352px;
+  background-color: #f9fcff;
+  border: 0.5px solid #60626a;
+}
+
+/* Legend */
+.legend > * + * {
+  margin-top: 8px;
+}
+
+.legend .legend-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.legend .legend-label {
+  margin-left: 8px;
+  max-width: 160px;
+}
+
+/* Tooltip */
+.tooltip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  padding: 8px 12px;
+  max-width: 160px;
+  background-color: #f9fcff;
+  border: 0.5px solid #60626a;
+  visibility: hidden;
+}
+
+.tooltip.is-visible {
+  visibility: visible;
+}
+
+/* Chart */
+.chart {
+  width: 100%;
+  height: 100%;
+}
+
+.chart .tick-circle {
+  stroke: #000000;
+  stroke-opacity: 0.27;
+  stroke-width: 0.5px;
+  fill: none;
+}
+
+.chart .tick.is-year .tick-circle {
+  fill: currentColor;
+}
+
+.chart .stem-line {
+  stroke: currentColor;
+  stroke-width: 0.3px;
+  stroke-dasharray: 2;
+}
+
+.chart .bubble-use {
+  opacity: 0.8;
+}
+
+.chart .bubble:hover .bubble-circle {
+  stroke: #000000;
+  stroke-opacity: 1;
+}
+
+/* Utilities */
+.is-muted {
+  filter: grayscale(100%) !important;
+}
+
+.is-hidden {
+  visibility: hidden !important;
+  pointer-events: none;
+}
