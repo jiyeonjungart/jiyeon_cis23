@@ -1,0 +1,120 @@
+@import url("https://use.typekit.net/ytx3zpl.css");
+
+body{
+    font-family: "imaginaryfriend-bb", sans-serif;
+    margin: 5rem;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: 700;
+    font-style: normal;
+    color: whitesmoke;
+    
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: skyblue;
+}
+
+h1:hover{
+    color: hotpink;
+    animation: gelatine 1s;
+}
+
+a{
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 2rem;
+
+}
+
+a:hover{
+    color: hotpink;
+    animation: gelatine 1s;
+}
+
+@keyframes gelatine {
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
+  }
+
+.cat{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 25%;
+    margin-left: -5rem;
+    margin-top: 1rem;
+  }
+
+.cat2{
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    width: 15%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+img:hover {
+    animation: spin 1s infinite linear;
+  }
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+.welcome  {
+    position: absolute;
+    left: 67%;
+    top: 70%;
+    width: 30%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-size: 4vw;
+    color: hotpink;
+}
+
+.yay{
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    width: 30%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-size: 4vw;
+    color: hotpink;
+}
+
+.cat3{
+    display: none;
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    width: 25%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.cat2:hover ~ .cat3{
+    display: block;
+}
+
+.cat2:hover{
+    display: none;
+}
